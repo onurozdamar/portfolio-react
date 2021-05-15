@@ -8,7 +8,7 @@ function Introduction() {
         Hi, I am <strong>Onur Özdamar</strong>
       </h1>
       <p className="section__subtitle section__subtitle--intro">
-        front-end dev
+        Backend Developer
       </p>
       <img className="intro__img" src={picture} alt="Onur Özdamar" />
     </section>

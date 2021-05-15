@@ -6,30 +6,18 @@ function MyServices() {
       <h2 className="section__title section__title--services">What do i do</h2>
       <div className="services">
         <div className="service">
-          <h3>Design + Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            suscipit sed tempore facere eos perspiciatis dolorem sequi, vero aut
-            ullam corrupti, minus accusamus delectus, quos soluta. Fuga
-            accusantium laudantium saepe.
-          </p>
+          <h3>Mobile Development</h3>
+          <p>At Mobile Development i am using java.</p>
         </div>
         <div className="service">
-          <h3>E-Commerce</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-            molestiae impedit, quibusdam accusantium qui ut accusamus illo, eius
-            quo provident, harum eligendi repudiandae numquam! Earum est
-            laboriosam quae perferendis odio?
-          </p>
+          <h3>Backend Development</h3>
+          <p>I am creating backend for apps with the c#.</p>
         </div>
         <div className="service">
-          <h3>Wordpress</h3>
+          <h3>Desktop Development</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique
-            expedita dolores beatae voluptatem veritatis? Ea ipsum animi
-            consequatur, id error obcaecati, odit molestiae illum porro rerum
-            recusandae expedita. Voluptas.
+            I am using java for Desktop Development. Also i used processing to
+            build apps.
           </p>
         </div>
       </div>

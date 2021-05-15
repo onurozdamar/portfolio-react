@@ -10,17 +10,12 @@ function AboutMe() {
       </p>
       <div className="about-me__body">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
-          error ad veniam perspiciatis corporis dolores culpa asperiores
-          inventore rerum maiores? Eveniet fugit odit provident facilis error
-          exercitationem ea deserunt delectus!
+          Hello i am Onur ÖZDAMAR. I am 23 years old. I love playing chess and
+          listening piano. I am studying at Bursa Uludag University, i will
+          graduate at 2022. I am into mobile development and backend
+          development.
         </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex laborum
-          soluta mollitia inventore dolor, eos praesentium cum, distinctio
-          delectus quis fugiat culpa, neque officiis reprehenderit eveniet
-          aliquid possimus aspernatur facilis?
-        </p>
+        <p>I developed apps in desktop, mobile and web.</p>
       </div>
       <img
         className="about-me__img"
