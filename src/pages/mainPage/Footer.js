@@ -2,8 +2,8 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <a href="mailto:onur@ozdamar.dev" className="footer__link">
-        onur@ozd.dev
+      <a href="onur.ozdamar28@gmail.com" className="footer__link">
+        onur.ozdamar28@gmail.com
       </a>
       <ul className="social-list">
         <li className="social-list__item">
