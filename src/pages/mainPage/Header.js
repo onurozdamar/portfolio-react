@@ -21,7 +21,7 @@ function Header() {
               className="nav__link"
               onClick={() => setIsNavOpen(!isNavOpen)}
             >
-              Home
+              Anasayfa
             </a>
           </li>
           <li className="nav__item">
@@ -30,7 +30,7 @@ function Header() {
               className="nav__link"
               onClick={() => setIsNavOpen(!isNavOpen)}
             >
-              My Servics
+              Uğraşlarım
             </a>
           </li>
           <li className="nav__item">
@@ -39,7 +39,7 @@ function Header() {
               className="nav__link"
               onClick={() => setIsNavOpen(!isNavOpen)}
             >
-              About me
+              Hakkımda
             </a>
           </li>
           <li className="nav__item">
@@ -48,7 +48,7 @@ function Header() {
               className="nav__link"
               onClick={() => setIsNavOpen(!isNavOpen)}
             >
-              My Work
+              Projelerim
             </a>
           </li>
         </ul>

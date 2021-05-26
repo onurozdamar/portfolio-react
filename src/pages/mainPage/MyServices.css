@@ -1,6 +1,6 @@
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(../../img/spear.jpg);
+  background-image: url(../../img/logo.png);
   background-size: cover;
   color: var(--clr-light);
   background-blend-mode: multiply;

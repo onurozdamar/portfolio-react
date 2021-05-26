@@ -13,15 +13,17 @@
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__item {
-  background: var(--clr-accent);
   overflow: hidden;
 }
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  margin: 10px;
 }
 
 .portfolio__item:focus {

@@ -3,26 +3,31 @@ import "./MyServices.css";
 function MyServices() {
   return (
     <section className="my-services" id="services">
-      <h2 className="section__title section__title--services">What do i do</h2>
+      <h2 className="section__title section__title--services">Ne Yapıyorum</h2>
       <div className="services">
         <div className="service">
-          <h3>Mobile Development</h3>
-          <p>At Mobile Development i am using java.</p>
-        </div>
-        <div className="service">
-          <h3>Backend Development</h3>
-          <p>I am creating backend for apps with the c#.</p>
-        </div>
-        <div className="service">
-          <h3>Desktop Development</h3>
+          <h3>Mobil Uygulama Geliştirme</h3>
           <p>
-            I am using java for Desktop Development. Also i used processing to
-            build apps.
+            Javayla birlikte Android Stduio'da mobil uygulamalar
+            gelişritiriyorum.
+          </p>
+        </div>
+        <div className="service">
+          <h3>Back-end Geliştirme</h3>
+          <p>
+            Back-end geliştirmek için c# ve entity framework kullanılıyorum.
+          </p>
+        </div>
+        <div className="service">
+          <h3>Masaüstü Geliştirme</h3>
+          <p>
+            Masaüstü projelerinde java kullanıyorum. Netbeans ve Processingde
+            masaüstü projelerimi geliştiriyorum.
           </p>
         </div>
       </div>
       <a href="#work" className="btn">
-        My Work
+        Projelerim
       </a>
     </section>
   );

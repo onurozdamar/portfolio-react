@@ -4,18 +4,27 @@ import aboutMeImg from "../../img/spear.jpg";
 function AboutMe() {
   return (
     <section className="about-me" id="about">
-      <h2 className="section__title section__title--about">Who i am</h2>
+      <h2 className="section__title section__title--about">Ben Kimim?</h2>
       <p className="section__subtitle section__subtitle--about">
-        Mobil developer
+        Bilgisayar Mühendisliği Öğrencisi
       </p>
       <div className="about-me__body">
         <p>
-          Hello i am Onur ÖZDAMAR. I am 23 years old. I love playing chess and
-          listening piano. I am studying at Bursa Uludag University, i will
-          graduate at 2022. I am into mobile development and backend
-          development.
+          Merhaba ben Onur ÖZDAMAR. 23 yaşındayım, satranç oynamayı ve piyano
+          dinlemeyi seviyorum. Bursa Uludağ Üniversitesinde Bilgisayar
+          Mühendisliği'nde 3. sınıf öğrencisi olarak öğrenim görmekteyim. Mobil
+          uygulama geliştirme ve back-end geliştirmeye ilgi duyuyorum.
         </p>
-        <p>I developed apps in desktop, mobile and web.</p>
+        <p>
+          Lisede makine bölümünde öğrenim görüyordum fakat yıllar geçtikçe
+          makine bölümünün bana uygun olmadığını farkettim. Makine bölümünde
+          gördüğümüz solidworks tarzında yazılımlara olan ilgim ve yatkınlığım
+          beni bilgisayar mühendisliğine itti. Böylece Bursa'da Bilgisayar
+          Mühendisliğine başladım. Öğrendiğim ilk dillerden biri olan javayı çok
+          sevdim ve bu konuda kendimi geliştirerek projeler geliştirdim. Şu an
+          c# ve react öğreniyorum ve hedefim kendimi back-end ve front-end
+          konusunda geliştirmek.
+        </p>
       </div>
       <img
         className="about-me__img"

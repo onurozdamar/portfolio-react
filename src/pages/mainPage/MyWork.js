@@ -1,14 +1,15 @@
 import "./MyWork.css";
-import MyWorkImg1 from "../../img/temsil.png";
-import MyWorkImg2 from "../../img/spear.jpg";
-import MyWorkImg3 from "../../img/img.png";
-import MyWorkImg4 from "../../img/temsil.png";
-import MyWorkImg5 from "../../img/spear.jpg";
+import MyWorkImg1 from "../../img/abalone.png";
+import MyWorkImg2 from "../../img/calis.png";
+import MyWorkImg3 from "../../img/ingilizce.jpg";
+import MyWorkImg4 from "../../img/shoplist.jpg";
+import MyWorkImg5 from "../../img/sudoku.png";
+import MyWorkImg6 from "../../img/xox.png";
 
 function MyWork() {
   return (
     <section className="my-work" id="work">
-      <h2 className="section__title">My Work</h2>
+      <h2 className="section__title">Projelerim</h2>
       <p className="section__subtitle"></p>
       <div className="portfolio">
         <a href="portfolio-item.html" className="portfolio__item">
@@ -25,6 +26,9 @@ function MyWork() {
         </a>
         <a href="../#asd" className="portfolio__item">
           <img src={MyWorkImg5} alt="" className="portfolio__img" />
+        </a>
+        <a href="../#asd" className="portfolio__item">
+          <img src={MyWorkImg6} alt="" className="portfolio__img" />
         </a>
       </div>
     </section>
