@@ -1,34 +1,48 @@
-import "./MyServices.css";
+import {
+  Button,
+  Card,
+  CardContent,
+  CardHeader,
+  Typography,
+} from "@mui/material";
+import img from "../../img/logo.png";
 
 function MyServices() {
   return (
-    <section className="my-services" id="services">
-      <h2 className="section__title section__title--services">Ne Yapıyorum</h2>
-      <div className="services">
-        <div className="service">
-          <h3>Mobil Uygulama Geliştirme</h3>
-          <p>
-            Javayla birlikte Android Stduio'da mobil uygulamalar
-            gelişritiriyorum.
-          </p>
-        </div>
-        <div className="service">
-          <h3>Back-end Geliştirme</h3>
-          <p>
-            Back-end geliştirmek için c# ve entity framework kullanılıyorum.
-          </p>
-        </div>
-        <div className="service">
-          <h3>Masaüstü Geliştirme</h3>
-          <p>
-            Masaüstü projelerinde java kullanıyorum. Netbeans ve Processingde
-            masaüstü projelerimi geliştiriyorum.
-          </p>
-        </div>
+    <section
+      className="text-center"
+      id="services"
+      style={{
+        backgroundImage: `url(${img})`,
+        backgroundSize: "cover",
+        backgroundColor: "var(--clr-dark)",
+        backgroundBlendMode: "multiply",
+      }}
+    >
+      <h2 className="text-green-300">Ne Yapıyorum</h2>
+      <div className="flex flex-col md:flex-row">
+        <Card className="m-10">
+          <CardHeader title="Front-End" />
+          <CardContent>
+            <Typography>React ile web uygulamaları geliştiriyorum.</Typography>
+          </CardContent>
+        </Card>
+        <Card className="m-10">
+          <CardHeader title="Mobil Uygulama Geliştirme" />
+          <CardContent>
+            <Typography>
+              React Native ile mobil uygulamalar geliştiriyorum.
+            </Typography>
+          </CardContent>
+        </Card>
       </div>
-      <a href="#work" className="btn">
+      <Button
+        href="#work"
+        variant="contained"
+        style={{ backgroundColor: "rgb(110, 231, 183)", color: "black" }}
+      >
         Projelerim
-      </a>
+      </Button>
     </section>
   );
 }
