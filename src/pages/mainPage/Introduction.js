@@ -1,16 +1,31 @@
-import "./Introduction.css";
 import picture from "../../img/img.png";
 
 function Introduction() {
   return (
-    <section className="intro" id="home">
-      <h1 className="section__title section__title--intro">
-        Merhaba, ben <strong>Onur Özdamar</strong>
+    <section
+      className="flex flex-col items-center relative my-0 mx-auto md:flex-row-reverse md:items-start md:justify-center"
+      style={{ width: "fit-content" }}
+      id="home"
+    >
+      <h1 className="font-light ml-4">
+        Merhaba, ben <strong className="block">Onur Özdamar</strong>
       </h1>
-      <p className="section__subtitle section__subtitle--intro">
-        Bilgisayar Mühendisi
+      <p
+        className="bg-green-300 px-4 py-1 mb-4 md:ml-8 text-right bottom-48 md:absolute left-0 right-0"
+        style={{
+          fontFamily: "var(--ff-secondary)",
+          fontSize: "var(--fs-h3)",
+          width: "calc(100% - 4rem)",
+        }}
+      >
+        Front-End Developer
       </p>
-      <img className="intro__img" src={picture} alt="Onur Özdamar" />
+      <img
+        className="w-60 z-10"
+        style={{ boxShadow: "var(--bs)" }}
+        src={picture}
+        alt="Onur Özdamar"
+      />
     </section>
   );
 }
