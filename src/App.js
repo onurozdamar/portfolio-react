@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./pages/mainPage/Header.js";
 import Introduction from "./pages/mainPage/Introduction.js";
 import MyServices from "./pages/mainPage/MyServices.js";
