@@ -10,7 +10,7 @@ import img from "../../img/logo.png";
 function MyServices() {
   return (
     <section
-      className="text-center"
+      className="text-center flex flex-col justify-center items-center"
       id="services"
       style={{
         backgroundImage: `url(${img})`,
