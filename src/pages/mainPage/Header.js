@@ -1,4 +1,10 @@
-import { AutoStories, EmojiObjects, Home, Person } from "@mui/icons-material";
+import {
+  ArrowBack,
+  AutoStories,
+  EmojiObjects,
+  Home,
+  Person,
+} from "@mui/icons-material";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -47,9 +53,10 @@ const DrawerHeader = styled("div")(({ theme }) => ({
   justifyContent: "flex-start",
 }));
 
-export default function PersistentDrawerRight() {
+export default function Header(props) {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
+  const { projectName } = props;
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -65,14 +72,35 @@ export default function PersistentDrawerRight() {
       <AppBar position="fixed" open={open}>
         <Toolbar>
           <Avatar alt="lgoo" src={logo} variant="rounded" />
+          <Link
+            variant="h6"
+            underline="none"
+            color="#fff"
+            sx={{ marginLeft: 1, cursor: "pointer" }}
+            href={projectName ? "/#work" : "/#home"}
+          >
+            {projectName && (
+              <IconButton
+                color="inherit"
+                aria-label="go home"
+                edge="start"
+                sx={{ marginLeft: 1 }}
+              >
+                <ArrowBack />
+              </IconButton>
+            )}
+            {projectName ? "Anasayfa" : "Onur Özdamar"}
+          </Link>
+
           <Typography
             variant="h6"
             noWrap
-            sx={{ flexGrow: 1, marginLeft: 1 }}
+            sx={{ flexGrow: 1, marginLeft: 1, textAlign: "center" }}
             component="div"
           >
-            Onur Özdamar
+            {projectName}
           </Typography>
+
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -108,25 +136,25 @@ export default function PersistentDrawerRight() {
         </DrawerHeader>
         <Divider />
         <List>
-          <ListItem button component={Link} href="#home">
+          <ListItem button component={Link} href="/#home">
             <ListItemIcon>
               <Home />
             </ListItemIcon>
             <ListItemText primary={"Anasayfa"} />
           </ListItem>
-          <ListItem button component={Link} href="#services">
+          <ListItem button component={Link} href="/#services">
             <ListItemIcon>
               <AutoStories />
             </ListItemIcon>
             <ListItemText primary={"Uğraşlarım"} />
           </ListItem>
-          <ListItem button component={Link} href="#about">
+          <ListItem button component={Link} href="/#about">
             <ListItemIcon>
               <Person />
             </ListItemIcon>
             <ListItemText primary={"Hakkımda"} />
           </ListItem>
-          <ListItem button component={Link} href="#work">
+          <ListItem button component={Link} href="/#work">
             <ListItemIcon>
               <EmojiObjects />
             </ListItemIcon>
