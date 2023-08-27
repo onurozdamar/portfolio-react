@@ -1,3 +1,9 @@
+import Header from "../mainPage/Header";
+
 export default function Abalone() {
-  return <div>abalobe</div>;
+  return (
+    <div>
+      <Header projectName="Abalone" />
+    </div>
+  );
 }

@@ -1,3 +1,9 @@
+import Header from "../mainPage/Header";
+
 export default function Calis() {
-  return <div>Calis</div>;
+  return (
+    <div>
+      <Header projectName="Calis" />
+    </div>
+  );
 }

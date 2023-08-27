@@ -1,3 +1,9 @@
+import Header from "../mainPage/Header";
+
 export default function Xox() {
-  return <div>Xox</div>;
+  return (
+    <div>
+      <Header projectName="Xox" />
+    </div>
+  );
 }
