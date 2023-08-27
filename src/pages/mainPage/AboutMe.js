@@ -23,10 +23,12 @@ function AboutMe() {
 
       <div className="md:w-2/3">
         <p>
-          Merhaba ben Onur ÖZDAMAR. 23 yaşındayım, satranç oynamayı ve piyano
-          dinlemeyi seviyorum. Bursa Uludağ Üniversitesinde Bilgisayar
-          Mühendisliği'nde 4. sınıf öğrencisi olarak öğrenim görmekteyim. Mobil
-          uygulama geliştirme ve front-end geliştirmeye ilgi duyuyorum.
+          Merhaba ben Onur ÖZDAMAR.{" "}
+          {new Date().getFullYear() - new Date("04.13.1998").getFullYear()}{" "}
+          yaşındayım, satranç oynamayı ve piyano dinlemeyi seviyorum. Bursa
+          Uludağ Üniversitesinde Bilgisayar Mühendisliği'nde 4. sınıf öğrencisi
+          olarak öğrenim görmekteyim. Mobil uygulama geliştirme ve front-end
+          geliştirmeye ilgi duyuyorum.
         </p>
         <p>
           Lisede makine bölümünde öğrenim görüyordum fakat yıllar geçtikçe
